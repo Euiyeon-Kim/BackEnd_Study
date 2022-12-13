@@ -1,22 +1,33 @@
 # 목차
 
-1. [Week1 Week2 - 프로젝트 시작하는 법](#week-1-week-2)
-2. [Week3 - 장고 기본 소개](#week-3)
-3. [Week4 - App 생성하기](#week-4)
-4. [Week5](#week-5)
+1. [Chapter 1~2 - 프로젝트 시작하는 법](#chapter-1-chapter-2)
+2. [Chapter 3 - 장고 기본 소개](#chapter-3)
+3. [Chapter 4 - App 생성하기](#chapter-4)
+4. [Week5](#chapter-5)
 
 -   [ETC](#etc)
 
-# Week 1 Week 2
+# Chapter 1 Chapter 2
+
+## Environment Setting
+
+장고 공식 홈페이지에서도 각 프로젝트마다 환경 따로 관리할 것 추천
+
+```bash
+    poetry init
+    poetry shell
+    poetry add django
+    exit
+```
 
 ## Start project
 
-create-react-app이랑 내나 비슷
+create-react-app이랑 비슷
 
 ```bash
-    django-admin startproject config .
-    python manage.py migration
-    python manage.py runserver
+    django-admin startproject config .    # 현재 폴더에 프로젝트 생성
+    python manage.py migrate              # 데이터 베이스 연동
+    python manage.py runserver            # 서버 시작
 ```
 
 ## DJango
@@ -24,7 +35,7 @@ create-react-app이랑 내나 비슷
 -   Support DB migration
 -   Use SQlite DB
 
-# Week 3
+# Chapter 3
 
 ## Admin 패널 사용하기
 
@@ -39,7 +50,7 @@ create-react-app이랑 내나 비슷
 장고로 백엔드를 구성하기 위해서는 사용할 데이터와 기능을 react에서 component 나누듯이? 나눠줘야함
 장고에서는 이 데이터랑 데이터 처리 로직 조합을 app이라고 부르고, 이 app들 간에는 소통 가능
 
-# Week 4
+# Chapter 4
 
 ## Application 생성하기
 
