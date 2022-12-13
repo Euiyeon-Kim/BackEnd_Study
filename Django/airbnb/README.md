@@ -47,8 +47,8 @@ create-react-app이랑 비슷
 
 ## Django Applications
 
-장고로 백엔드를 구성하기 위해서는 사용할 데이터와 기능을 react에서 component 나누듯이? 나눠줘야함
-장고에서는 이 데이터랑 데이터 처리 로직 조합을 app이라고 부르고, 이 app들 간에는 소통 가능
+장고로 백엔드를 구성하기 위해서는 사용할 데이터와 기능을 나눠줘야함
+장고에서는 이 데이터랑 데이터 처리 로직 조합을 app이라고 부르고, app들 간에는 소통도 가능함
 
 # Chapter 4
 
@@ -122,10 +122,14 @@ create-react-app이랑 비슷
 -   Abstraction
 -   Polymorphism
 
-## More about Django
+## More function about Django
 
 -   config/settings.py 에 TIMEZONE & LANGUAGE_CODE 설정 가능
 -   config/urls.py 에서 url path 관리 가능
+
+## Deploy Server
+
+-   runserver 커맨드로 빌드되는 서버는 개발용으로 성능 및 보안이 검증된 서버가 아님
 
 ## Framework vs Library
 
