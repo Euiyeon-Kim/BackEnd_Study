@@ -71,7 +71,7 @@ create-react-app이랑 비슷
             name = models.CharField(max_length=140)
             price = models.PositiveIntegerField()
             description = models.TextField()
-            address = models.CharField(max_length=140)
+            address = models.CharField(verbose_name="주소", max_length=140, help_text="도로명주소로 작성하시오")
 
     ```
 
